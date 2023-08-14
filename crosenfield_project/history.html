@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>Horizontal Menu with Centered Logo</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="flex-container">
+      <!-- horizontal left -->
+      <nav id="navLeft">
+        <ul style="padding-left: 20px;">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="overview.html">Overview</a>
+          </li>
+          <li>
+            <a href="ecology.html">Ecology</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- dropdown-menu -->
+      <nav id="navDropdown">
+        <div class="dropdown">
+          <button class="dropbtn"><span class="fa fa-bars fa-2x"></span></button>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="overview.html">Overview</a>
+            <a href="ecology.html">Ecology</a>
+            <a href="inyourgarden.html">In Your Garden</a>
+            <a href="#" class="active-menu-item">History</a>
+            <a href="species.html">Species</a>
+          </div>
+        </div>
+      </nav>
+      <!-- center logo -->
+      <img class="logo" src="./assets/images/logoo.jpg"alt="plant society logo"/>
+      <!-- horizontal right -->
+      <nav id="navRight">
+        <ul style="padding-right: 20px;">
+          <li>
+            <a href="inyourgarden.html">In Your Garden</a>
+          </li>
+          <li>
+            <a href="#" class="active-page">History</a>
+          </li>
+          <li>
+            <a href="Species.html">Species</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Inline CSS -->
+  <section style="width: auto; height: 550px; padding:30px; background-color: rgb(205, 130, 9); color: white;">
+    <article style="width: 100%; float: left; ">
+
+        <body>
+        <h1>HISTORY</h1>
+        
+        <iframe padding=100px; width="420" height="315"
+        src="https://www.youtube.com/embed/Mf302DjHJJQ">
+        </iframe>
+        <iframe padding= 100px; width="420" height="315"
+        src="  https://www.youtube.com/embed/Y8e09BUquB8">
+        </iframe>
+        <iframe padding= 100px; width="420" height="315"
+        src=" https://www.youtube.com/embed/rRNvpGpqGLE">
+        </iframe>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+          <body>
+          <h2>Our Relationship with Native Plants in California</h2>
+          
+          <button class="accordion">"California Ethnobotany: Historical Uses of Native Plants"</button>
+          <div class="panel">
+            <p style="color: rgb(205, 130, 9)">In this first video from California Native Plant Society, John Kipping explains the historical uses of native plants.</p>
+          </div>
+          
+          <button class="accordion">"30 Medicinal Plants the Native Americans Used on a Daily Basis"</button>
+          <div class="panel">
+            <p style="color: rgb(205, 130, 9)"> This video explains thirty of the main plants Native Americans used on a daily basis. The video discusses native medicinal plants in California.</p>
+          </div>
+          
+          <button class="accordion">"Hope for the Coast"</button>
+          <div class="panel">
+            <p style="color: rgb(205, 130, 9)">This video discusses the environmental impact of global warming and environment degredation on Califorina's coastal ecologies. Native plants can reduce erosion and seaweed can mitigate the impacts of sea-level rise.</p>
+          </div>
+          
+          <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+      </body>
+    </article>
+  </section>
+  <div class="to-top"><a href="#">Top</a></div>
+  <footer style="width: 100%;">
+    <div class="social-icon">
+      <!-- Facebook -->
+      <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+      <!--Instagram-->
+      <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+      <!-- Twitter -->
+      <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+      <!-- Pinterest -->
+      <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+      <!-- Linkedin -->
+      <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+      <!-- GitHub -->
+      <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
