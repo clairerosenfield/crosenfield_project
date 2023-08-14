@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>Horizontal Menu with Centered Logo</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="flex-container">
+      <!-- horizontal left -->
+      <nav id="navLeft">
+        <ul style="padding-left: 20px;">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#" class="active-page">Overview</a>
+          </li>
+          <li>
+            <a href="ecology.html">Ecology</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- dropdown-menu -->
+      <nav id="navDropdown">
+        <div class="dropdown">
+          <button class="dropbtn"><span class="fa fa-bars fa-2x"></span></button>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#" class="active-menu-item">Overview</a>
+            <a href="ecology.html">Ecology</a>
+            <a href="inyourgarden.html">inyourgarden</a>
+            <a href="history.html">History</a>
+            <a href="species.html">Species</a>
+          </div>
+        </div>
+      </nav>
+      <!-- center logo -->
+      <img class="logo" src="./assets/images/logoo.jpg"alt="plant society logo"/>
+      <!-- horizontal right -->
+      <nav id="navRight">
+        <ul style="padding-right: 20px;">
+          <li>
+            <a href="inyourgarden.html">In Your Garden</a>
+          </li>
+          <li>
+            <a href="history.html">History</a>
+          </li>
+          <li>
+            <a href="species.html">Species</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Inline CSS -->
+  <section style="width: auto; height: 550px; padding:30px; background-color: rgb(205, 130, 9); color: white;">
+    <article style="width: 70%; float: left; ">
+      <div style="border-right: 1px solid rgb(181, 181, 181); padding-top: 0px; padding-left:10px">
+        <!-- TODO: add main content here -->
+        <img style="float: left; max-width: 420px; padding-left: 15px; padding-bottom: 15px; padding-right: 15px;" src="./assets/images/overviewpicture.jpeg" alt="poppypicture"/>
+        <h1>OVERVIEW</h1>
+        <p style="text-indent: 30px;">"Native plants are generally defined to be plants found in our region before European colonization, roughly 200 years ago. Native plants have evolved together with native animals so that each species fills a specific niche and there are checks and balances to each species' populations. Native plants are generally controlled by competition with other species, herbivory from native animals, nutrient availability, and other ecological factors. 
+        </p> <p style="text-indent: 30px"> A community of native plants provides a mosaic of food sources, shelters, and niches for a diversity of native animals. Essentially, a greater the diversity of native plants means a greater diversity of native animals. Invasive plants, having evolved in other plant communities, disrupt this delicate balance because they aren't controlled by competition with other plants or animals. The killing or possession of California rare, threatened or endangered plant species(opens in new tab) is prohibited by California law, however CDFW may issue permits authorizing the killing or possession of these species under certain circumstances, such as for scientific, educational or management purposes." (Channel Islands Restoration)
+          </p><p style="text-indent: 30px">"California hosts approximately 6,500 species, subspecies, and varieties of plants that occur naturally in the state, and many of these are found nowhere else in the world. Some are adapted to unique habitats or harsh conditions, and some occur in such low numbers or have been so impacted by human influence that they are at risk of permanent extinction from the wild. California’s native plants should be conserved because of their beauty and intrinsic value, because they are essential components of ecosystems and natural processes, and because they provide us with valuable renewable materials and other benefits. CDFW administers programs to study, map, conserve and protect California’s native plants and natural communities." (California Department of Fish and Wildlife)
+      </p>
+    
+  </div>
+    </article>
+    <aside style="width: 30%; float: right; padding-left: 20px;">
+      <!-- TODO: add sidebar content here -->
+      <div>
+        <p style="text-indent: 30px;">"The List of State and Federally-Listed Endangered, Threatened and Rare Plants of California includes all of the plant species that have been designated as rare, threatened, endangered, or candidate by the California Fish and Game Commission under California law, and all plant species that both occur in California and have been designated as threatened, endangered or are proposed for listing under the federal Endangered Species Act." (California Department of Fish and Wildlife) </p>
+        <h5>COMMON SPECIES OF NATIVE PLANTS</h5>
+        <li>
+          White Sage
+        </li>
+        <li>
+          Monkeyflower
+        </li>
+        <li>
+          California Poppy
+        </li>
+        <li>Lupin</li>
+       
+      </div>
+    </aside>
+  </section>
+  <div class="to-top"><a href="#">Top</a></div>
+  <footer style="width: 100%;">
+    <div class="social-icon">
+      <!-- Facebook -->
+      <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+      <!--Instagram-->
+      <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+      <!-- Twitter -->
+      <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+      <!-- Pinterest -->
+      <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+      <!-- Linkedin -->
+      <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+      <!-- GitHub -->
+      <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
